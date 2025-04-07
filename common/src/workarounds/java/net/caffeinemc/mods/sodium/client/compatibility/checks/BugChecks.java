@@ -47,7 +47,7 @@ class BugChecks {
      * our dependency on LWJGL and remove this check.
      * <a href="https://github.com/CaffeineMC/sodium/issues/2561">GitHub Issue</a>
      */
-    public static final boolean ISSUE_2561 = configureCheck("issue2561", true);
+    public static final boolean ISSUE_2561 = configureCheck("issue2561", false);
 
     /**
      * ASUS's GPU Tweak III does not correctly restore OpenGL context state after rendering its in-game overlay,
